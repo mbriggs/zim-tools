@@ -1,6 +1,4 @@
-inspiration --header
-
 if [ -f /opt/homebrew/bin/direnv ]
 then
-  eval "$(direnv hook zsh)"
+  eval "$(/opt/homebrew/bin/direnv hook zsh)"
 fi
