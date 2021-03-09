@@ -1,0 +1,4 @@
+for example in settings/*.example
+do
+    cp -v $example settings/$(basename $example .example)
+done
